@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    background-image: url('./background-pic.jpg');
+    background-size: cover;
+}
+
+.header, .footer {
+    background-color: rgba(100,150,0,0.5);
+    height: 50px;
+    width: 100%;
+}
+
+.main {
+    flex: auto;
+}
