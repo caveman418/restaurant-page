@@ -1,4 +1,4 @@
-import img from '../src/background-pic.JPG';
+import img from './background-pic.JPG';
 const content = document.getElementById('content');
 const createDiv = () => {return document.createElement('div');}
 
