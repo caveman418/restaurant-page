@@ -15,6 +15,8 @@ const createBody = () => {
     main.appendChild(container);
 
     content.append(backgroundImage,main);
+
+    return container;
 }
 
 export default createBody;

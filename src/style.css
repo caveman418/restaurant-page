@@ -23,7 +23,7 @@ body {
 
 #content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -119,4 +119,10 @@ a {
     border: 2px solid var(--accent-color);
     border-radius: 5px;
     padding: 10px;
+    text-align: center;
+}
+
+.module-title {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
