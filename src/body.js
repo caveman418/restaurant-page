@@ -4,7 +4,7 @@ const createDiv = () => {return document.createElement('div');}
 
 const createBody = () => {
     let backgroundImage = document.createElement('img');
-    backgroundImage.setAttribute('src', img);
+    backgroundImage.setAttribute('src', './background-pic.jpg');
     backgroundImage.setAttribute('alt', 'salad pic');
 
     let main = createDiv();
