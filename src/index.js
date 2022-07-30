@@ -1,3 +1,4 @@
 import './style.css';
+import init from './initialize';
 
-console.log('it worked!');
+init();

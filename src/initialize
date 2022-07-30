@@ -1,0 +1,12 @@
+import createBody from './body';
+import createFooter from './footer';
+import createHeader from './header';
+
+function init() {
+    createHeader();
+    createBody();
+    createFooter();
+
+}
+
+export default init;

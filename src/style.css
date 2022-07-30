@@ -57,6 +57,11 @@ img {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+}
+
 .header {
     height: 150px;
     display: flex;
